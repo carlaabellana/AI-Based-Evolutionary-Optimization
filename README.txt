@@ -1,0 +1,57 @@
+-- Simulació Física|Curs 2024-2025
+--  
+-- Carla Abellana Segarra
+--  
+----------------------------------------------------------------------------------------------
+--
+--
+---------------------------- OBJECTIU --------------------------------------------------------
+--  L'objectiu principal és evitar que les pilotes caiguin dins d'una zona vermella
+--  situada a la part inferior de l'entorn. Per aconseguir-ho, es genera un individu
+--  format per 20 rectangles fixos, els quals actuen com una estructura de protecció.
+--  Els angles d’aquests rectangles es modifiquen i optimitzen mitjançant dos tipus
+--  d’algorismes evolutius: l’Algorisme Genètic i el CMA-ES.
+--  
+----------------------------------------------------------------------------------------------
+--
+--
+---------------------------- INSTRUCCIONS D’EXECUCIÓ -----------------------------------------
+--  1. Obre el projecte en Visual Studio Code, o qualsevol IDE que permeti executar
+--     codi en Python.
+--
+--  2. Assegura’t de tenir instal·lades les següents llibreries:
+--     pip install pygame Box2D matplotlib cma
+--
+--  3. Executa el programa des del fitxer:
+--     - Algorisme Genètic: genetic_algorithm.py
+--     - Algorisme CMA-ES: cma_es.py
+--
+--  4. Un cop s’executa el programa, es visualitzarà la millor solució en l'entorn adient
+--
+--  5. Al final de l’entrenament, es mostrarà:
+--     - Un gràfic amb l’evolució del fitness.
+--     - La millor solució trobada amb animació mitjançant Pygame.
+--
+----------------------------------------------------------------------------------------------
+--
+--
+---------------------------- ARQUITECTURA (Classes principals) -------------------------------
+--  1. Ball : Representa una pilota dinàmica afectada per la gravetat i col·lisions.
+--
+--  2. Rectangle: Representa un bloc fix que pot col·lisionar amb les pilotes.
+--
+--  3. Individual: Defineix un conjunt de 20 angles que representen un possible individu.
+--
+--  4. Environment: Conté les parets laterals i la zona vermella a protegir.
+--
+----------------------------------------------------------------------------------------------
+--
+--
+---------------------------- INTERFÍCIE GRÀFICA I FÍSICA -------------------------------------
+--  pygame: S'utilitza per mostrar gràficament l'escenari i els objectes.
+--
+--  Box2D: S'encarrega de simular el món físic amb gravetat, col·lisions i cossos rígids.
+--
+----------------------------------------------------------------------------------------------
+--
+--

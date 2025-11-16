@@ -1,0 +1,19 @@
+{
+    "balls": [
+        { "position": [100, 100], "radius": 10 },
+        { "position": [160, 100], "radius": 10 },
+        { "position": [220, 100], "radius": 10 },
+        { "position": [280, 100], "radius": 10 },
+        { "position": [340, 100], "radius": 10 },
+        { "position": [400, 100], "radius": 10 },
+        { "position": [460, 100], "radius": 10 },
+        { "position": [520, 100], "radius": 10 },
+        { "position": [130, 150], "radius": 10 },
+        { "position": [190, 150], "radius": 10 },
+        { "position": [250, 150], "radius": 10 },
+        { "position": [310, 150], "radius": 10 },
+        { "position": [370, 150], "radius": 10 },
+        { "position": [430, 150], "radius": 10 },
+        { "position": [490, 150], "radius": 10 }
+    ]
+}
